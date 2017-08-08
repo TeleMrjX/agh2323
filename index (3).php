@@ -14,8 +14,8 @@ Aides developer
 Channel = @super_api
 */
 ob_start();
-$API_KEY = '367578574:AAEsdZuGqUR87wfg4de7CCK462zYcMPBq2s'; //add your bot token
-$bot_ = "apilinkrembot";
+$API_KEY = '271081509:AAGGrPqsEAeiGQHPHj-J9MYYSRIvOhS2rT8'; //add your bot token
+$bot_ = "ReloadHelperBot";
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -93,7 +93,7 @@ $myphoto = $update->message->file_size;
 $edit = $update->message->edited_channel_post;
 $new_gp_name = $update->message->new_chat_title;
 $new_gp_photo = $update->message->new_chat_photo;
-$admin = 263679888;
+$admin = 193156389;
 $del_gp_photo = $update->message->delete_chat_photo;
 $new_member = $update->message->new_chat_member;
 $left = $update->message->left_chat_member;
